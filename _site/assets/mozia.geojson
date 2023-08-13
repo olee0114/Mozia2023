@@ -1,0 +1,39 @@
+{
+   "type": "FeatureCollection",
+   "name": "MoziaMapData",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4705481,37.8663732 ]
+    },
+    "properties": {
+    "Name":"Dig House!",
+    "Description":"This is where most of the archaeologists and specialists lived while on the dig. We began our day around 5am, usually grabbing a coffee and heading out to the field, where we'd stay until the early afternoon. After breaking for lunch and taking a nap, we'd start cleaning and documentating the finds."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4696859,37.8703479 ]
+    },
+    "properties": {
+    "Name":"K64",
+    "Description":"This area is the pottery workshop where the kiln was excavated."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4686365,37.8705243 ]
+    },
+    "properties": {
+    "Name":"Necropolis",
+    "Description":"The team dug in three areas of the Necropolis this summer: N23, N15, and N27. N23 and N27 are towers that were once part of the fortifications of the island, while N15 was a ramp. All of them contain cremations or burials, many of which were excavated throughout the season.  "
+    }
+  }
+]
+}
