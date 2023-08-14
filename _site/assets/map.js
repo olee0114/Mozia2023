@@ -37,27 +37,7 @@ $.getJSON("/assets/mozia.geojson", function(data){
 
 });
 
-map.setView([37.867254,12.468143], setInitialMapZoom());
-
-
-// let baseMaps = {
-//     "Physical": wphys,
-//     "Boundaries/Places": wtopo
-// };
-
-// let layerControl = L.control.layers(baseMaps).addTo(map);
-
-function PointActions (feature, layer) {
-
-  //   return new L.popup(latlng, {
-  //   .setContent('Name'+'<br></br>'+'Description'), 
-  //   .openOn(map)
-  // });
-
-};
-
-// let tip = document.getElementsByClassName('leaflet-popup-tip').style.background-color = "#f4eedc"
-
+map.setView([37.8671797,12.4694909], setInitialMapZoom());
 
 var width = document.documentElement.clientWidth;
 
@@ -78,8 +58,6 @@ window.addEventListener('resize', function(event){
         // set the zoom level to 16
         map.setZoom(16);
     }
-
-
 
 });
 

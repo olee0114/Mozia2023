@@ -354,6 +354,19 @@ img {
 
  }
 
+img.necro {
+  min-width: 25vmax;
+  width: 25vw;
+  height: auto;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  border: solid;
+  border-color: #030c8a;
+  border-width: 4px;
+
+ }
+
+
  img.cc {
   min-width: 0;
   width: 5vw;
@@ -363,6 +376,10 @@ img {
   border: solid;
   border-color: #030c8a;
   border-width: 4px;
+ }
+
+ img.leaflet-image-layer.leaflet-zoom-animated {
+  border: none;
  }
 
 div.img.container {
@@ -421,9 +438,6 @@ model-viewer {
  background-color: #F4EEDC;
   position: relative;
   contain: strict;
- /* margin-left: auto;
-  margin-right: 20px;
-  margin-bottom: 15px;*/
   height: 20vmax;
   width: 25vw;
   z-index: 12;
@@ -432,87 +446,6 @@ model-viewer {
 
 div.modelviewer {
   text-align: center;
-}
-
-.Hotspot {
-  background: transparent;
-  border-radius: 32px;
-  border: 2px solid #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  box-sizing: border-box;
-  cursor: pointer;
-  height: 12px;
-  padding: 8px;
-  position: relative;
-  transition: opacity 0.3s;
-  width: 12px;
-}
-
-.Hotspot:not([data-visible]) {
-  background: transparent;
-  border: 2px solid #030c8a;
-  box-shadow: none;
-  height: 12px;
-  pointer-events: none;
-  width: 12px;
-  opacity: 0;
-}
-
-.Hotspot:focus {
-  border: 2px solid rgb(0, 128, 200);
-  height: 12px;
-  outline: none;
-  width: 12px;
-}
-
-.Hotspot > * {
-  opacity: 1;
-  transform: translateY(-50%);
-}
-
-.HotspotAnnotation {
-  background: #030c8a;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  color: rgba(0, 0, 0, 0.8);
-  display: block;
-  font-family: "Courier";
-  font-size: 0.75vmax;
-  font-weight: 500;
-  left: calc(100% + 1em);
-  max-width: 28vw;
-  overflow-wrap: break-word;
-  position: absolute;
-  top: 50%;
-  width: max-content;
-  transform: translate(10px, 10px);
-  border-radius: 10px;
-  padding: 10px;
-  text-align: left;
-}
-
-.Hotspot:not([data-visible]) > * {
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(calc(-50% + 2px));
-  transition: transform 0.3s, opacity 0.3s;
-}
-
-@keyframes circle {
-  from {
-    transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg);
-  }
-  to {
-    transform: translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg);
-  }
-}
-
-@keyframes elongate {
-  from {
-    transform: translateX(100px);
-  }
-  to {
-    transform: translateX(-100px);
-  }
 }
 
 .footer {
@@ -526,17 +459,6 @@ div.modelviewer {
   flex-direction: column;
   align-items: center;
 }
-
-/* 
-style="
-          display: inline-flex;
-          height: 400px;
-          padding: 20px;
-          text-align: center;
-          margin: auto;
-          justify-content: center;
-        "
-*/
 
 
 #map {
