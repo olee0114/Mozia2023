@@ -21,7 +21,7 @@
     },
     "properties": {
     "Name":"K64",
-    "Description":"This area is the pottery workshop where the kiln was excavated."
+    "Description":"This is Area K, a potters' workshop where a number of kilns have been identified and excavated."
     }
   },
   {
@@ -32,7 +32,7 @@
     },
     "properties": {
     "Name":"Necropolis",
-    "Description":"The team dug in three areas of the Necropolis this summer: N23, N15, and N27. N23 and N27 are towers that were once part of the fortifications of the island, while N15 was a ramp. All of them contain cremations or burials, many of which were excavated throughout the season.  "
+    "Description":"The team dug in three areas of the Necropolis this summer: N23, N15, and N27. All of them contained cremations or burials which were excavated throughout the season."
     }
   }
 ]
