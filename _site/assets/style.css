@@ -343,14 +343,56 @@ a:not(.btn--remix):visited {
 }
 
 img {
-  width: 20%;
+  width: 30%;
   height: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+  border: solid;
+  border-color: #030c8a;
+  border-width: 4px;
 }
 
 div.img.container {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.float {
+  position: relative;
+  z-index: 12;
+  float: left;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: auto;
+ /* margin-right: 3vw;
+  margin-bottom: 2vw;*/
+}
+
+div.float {
+  position: relative;
+  z-index: 12;
+  float: left;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 0;
+  margin-right: 3vmax;
+  margin-bottom: 1vmax;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 50vmin;
+  height: auto;
+ 
 }
 
 */ :host {
