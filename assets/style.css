@@ -96,7 +96,6 @@ body {
   z-index: 7;
 }
 
-
 .square11 {
   height: 10vw;
   width: 5vh;
@@ -107,7 +106,7 @@ body {
 }
 
 .square21 {
-height: 15vmin;
+  height: 15vmin;
   width: 30vw;
   left: ;
   background-color: #c95410;
@@ -116,7 +115,7 @@ height: 15vmin;
 }
 
 .square31 {
-   height: 9vh;
+  height: 9vh;
   width: 15vw;
   left: 25vw;
   background-color: #030c8a;
@@ -181,21 +180,20 @@ height: 15vmin;
   z-index: 7;
 }
 
-
 h1 {
-  font-size: 14pt;
+  font-size:calc(12px + 1.5vmin);
   color: #030c8a;
   font-family: "Palatino";
   font-weight: 700;
   z-index: 11;
   position: relative;
-  background-color: #F4EEDC;
+  background-color: #f4eedc;
   text-align: center;
 }
 
 h1.title {
   font-size: 2vw;
-  color: #F4EEDC;
+  color: #f4eedc;
   content-align: center;
   text-align: center;
   vertical-align: middle;
@@ -207,7 +205,7 @@ h1.title {
   top: 5vmin;
   left: 62vw;
   border: solid;
-  border-color: #F4EEDC;
+  border-color: #f4eedc;
   background-color: #030c8a;
   position: absolute;
   display: flex;
@@ -231,7 +229,7 @@ h1.subtitle {
   left: 89vw;
   border: solid;
   border-color: #030c8a;
-  background-color: #F4EEDC;
+  background-color: #f4eedc;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -241,7 +239,7 @@ h1.subtitle {
 
 h1.title2 {
   font-size: 2vw;
-  color: #F4EEDC;
+  color: #f4eedc;
   content-align: center;
   text-align: center;
   vertical-align: middle;
@@ -253,7 +251,7 @@ h1.title2 {
   top: 5vmin;
   left: 15vw;
   border: solid;
-  border-color: #F4EEDC;
+  border-color: #f4eedc;
   background-color: #030c8a;
   position: absolute;
   display: flex;
@@ -277,7 +275,7 @@ h1.subtitle2 {
   left: 3vw;
   border: solid;
   border-color: #030c8a;
-  background-color: #F4EEDC;
+  background-color: #f4eedc;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -287,39 +285,39 @@ h1.subtitle2 {
   padding-right: 1vw;
 }
 
-h2 {
-  font-size: 12pt;
+h2 { 
+  font-size:calc(8px + 1.5vmin);
   color: #030c8a;
   font-family: "palatino";
   font-weight: 500;
   z-index: 11;
   position: relative;
-  background-color: #F4EEDC;
+  background-color: #f4eedc;
 }
 
 h3 {
-  font-size: 10pt;
+  font-size:calc(4px + 1.5vmin);
   color: #030c8a;
- /* margin-top: 5px;
+  /* margin-top: 5px;
   margin-left: 10vw;
   margin-right: 10vw;*/
   font-family: "palatino";
   font-weight: 500;
   z-index: 11;
-  background-color: #F4EEDC;
+  background-color: #f4eedc;
   position: relative;
 }
 
 h4 {
   font-size: 2vmax;
   color: #030c8a;
- /* margin-top: 40px;
+  /* margin-top: 40px;
   margin-left: 10vw;
   margin-right: 10vw;*/
   font-family: "Palatino";
   font-weight: 700;
   z-index: 11;
-  background-color: #F4EEDC;
+  background-color: #f4eedc;
   position: relative;
 }
 
@@ -340,8 +338,7 @@ img {
   border: solid;
   border-color: #030c8a;
   border-width: 4px;
-
- }
+}
 
 img.necro {
   min-width: 25vmax;
@@ -352,11 +349,9 @@ img.necro {
   border: solid;
   border-color: #030c8a;
   border-width: 4px;
+}
 
- }
-
-
- img.cc {
+img.cc {
   min-width: 0;
   width: 5vw;
   height: auto;
@@ -365,11 +360,11 @@ img.necro {
   border: solid;
   border-color: #030c8a;
   border-width: 4px;
- }
+}
 
- img.leaflet-image-layer.leaflet-zoom-animated {
+img.leaflet-image-layer.leaflet-zoom-animated {
   border: none;
- }
+}
 
 div.img.container {
   text-align: center;
@@ -413,9 +408,7 @@ div.float {
   align-content: center;
   width: 50vmin;
   height: auto;
- 
 }
-
 
 */ :host {
   position: relative;
@@ -424,7 +417,7 @@ div.float {
 }
 
 model-viewer {
- background-color: #F4EEDC;
+  background-color: #f4eedc;
   position: relative;
   contain: strict;
   height: 20vmax;
@@ -448,7 +441,6 @@ div.modelviewer {
   flex-direction: column;
   align-items: center;
 }
-
 
 #map {
   height: 35vw;
