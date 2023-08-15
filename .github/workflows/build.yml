@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm install
-          npx @11ty/eleventy --pathprefix=bsrs
+          npx @11ty/eleventy --pathprefix=mozia2023
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
