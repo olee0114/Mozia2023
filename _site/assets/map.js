@@ -11,7 +11,7 @@ var imageUrl = 'assets/rasters/islandimage.png',
     imageBounds = [[37.86188992,12.46104057], [37.87174639,12.47492509]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
-$.getJSON("/assets/mozia.geojson", function(data){
+$.getJSON("assets/mozia.geojson", function(data){
 
   function onEachFeature (feature, thing) {
     thing.bindPopup('<div style="background-color: #f4eedc">'+'<div style="text-align: center; color: #030c8a; font-size: 9px"><b>'+ 
